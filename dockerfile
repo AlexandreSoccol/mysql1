@@ -8,7 +8,7 @@ services:
   volumes:
    - /home/database/n1:/var/lib/mysql
   environment:
-   - MYSQL_ROOT_PASSWORD=suasenha
+   - MYSQL_ROOT_PASSWORD=uceff2016
   networks:
    - N1
  wordpress:
@@ -18,7 +18,7 @@ services:
   environment:
    - WORDPRESS_DB_HOST=mariadb
    - WORDPRESS_DB_USER=root
-   - WORDPRESS_DB_PASSWORD=suasenha
+   - WORDPRESS_DB_PASSWORD=uceff2016
   networks:
    - N1
 networks:
